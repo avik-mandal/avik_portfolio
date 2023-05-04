@@ -42,7 +42,7 @@ section {
 .teams,
 .contact,
 footer {
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins", seans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -106,7 +106,7 @@ section .title::after {
 	justify-content: space-between;
 }
 .navbar .logo a {
-	color: #fff;
+	color: #78199e;
 	font-size: 35px;
 	font-weight: 600;
 }
@@ -115,7 +115,7 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-	color: #fff;
+	color: #2b6496;
 }
 .navbar .menu li {
 	list-style: none;
@@ -123,7 +123,7 @@ section .title::after {
 }
 .navbar .menu li a {
 	display: block;
-	color: #fff;
+	color:#2b6496;
 	font-size: 18px;
 	font-weight: 500;
 	margin-left: 25px;
@@ -138,7 +138,7 @@ section .title::after {
 
 /* menu btn styling */
 .menu-btn {
-	color: #78199e;
+	color: #ebe9eb;
 	font-size: 23px;
 	cursor: pointer;
 	display: none;
@@ -166,6 +166,7 @@ section .title::after {
 	bottom: 30px;
 	opacity: 1;
 	pointer-events: auto;
+
 }
 .scroll-up-btn:hover {
 	filter: brightness(90%);
@@ -228,7 +229,7 @@ section .title::after {
 	background: url("") no-repeat center;
 	background:#95d1cc;
 	height: 100vh;
-	color: #fff;
+	color:#2b6496;
 	min-height: 200px;
 	background-size: cover;
 	background-attachment: fixed;
@@ -261,7 +262,6 @@ section .title::after {
 .home .home-content a {
 	display: inline-block;
 	background: #78199e;
-	color: #fff;
 	font-size: 25px;
 	padding: 12px 36px;
 	margin-top: 20px;
@@ -271,7 +271,7 @@ section .title::after {
 	transition: all 0.3s ease;
 	display: inline-block;
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-    color: #fff;
+    color: #2b6496;
     font-size: 18px;
     font-weight: 500;
     border-radius: 6px;
@@ -290,6 +290,7 @@ section .title::after {
 
 /* about section styling */
 .about {
+
 	/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
 	background: #95d1cc;
 }
@@ -311,21 +312,21 @@ section .title::after {
 	font-size: 25px;
 	font-weight: 600;
 	margin-bottom: 10px;
-	color: white;
+	color:#2b6496;
 }
 .about .about-content .right .text span {
 	color: #78199e;
 }
 .about .about-content .right p {
 	text-align: justify;
-    color: #78199e;
+    color:#2b6496;
 }
 .about .about-content .right a {
 	display: inline-block;
 	/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
 	box-shadow: 0.4rem 0.4rem 1rem #76a39f,
 		-0.4rem -0.4rem 1rem hsl(175, 79%, 87%);
-	color: #fff;
+	color: #2b6496;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 10px 30px;
@@ -344,17 +345,17 @@ section .title::after {
 /* services section styling */
 .services,
 .teams {
-	color: #fff;
+	color: #2b6496;
 	/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
 	background-color: #95d1cc;
 }
 .services .title::before,
 .teams .title::before {
-	background-color:#78199e;
+	background: color #78199E;
 }
 .services .title::after,
 .teams .title::after {
-	background-color: #78199e;
+	background-color: #2b6496;
 }
 .services .serv-content .card {
 	width: calc(33% - 20px);
@@ -370,7 +371,7 @@ section .title::after {
 }
 .services .serv-content .card p,
 .services .serv-content .card .text {
-	color: #78199e;
+	color: #2b6496;
 }
 .services .serv-content .card:hover {
 	/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
@@ -385,11 +386,11 @@ section .title::after {
 }
 .services .serv-content .card i {
 	font-size: 50px;
-	color: #78199e;
+	color: #2b6496;
 	transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
-	color: #fff;
+	color: #78199E;
 }
 .services .serv-content .card .text {
 	font-size: 25px;
@@ -423,6 +424,7 @@ section .title::after {
 }
 .skills .skills-content .right span {
 	font-weight: 500;
+	color: #2b6496;
 	font-size: 18px;
 }
 .skills .skills-content .right .line {
@@ -442,7 +444,7 @@ section .title::after {
 	height: 90%;
 	left: 0;
 	top: 0;
-	background: #78199e;
+	background:#2b6496;
 	box-shadow: .4rem .4rem 1rem #76a39f,
     -.4rem -.4rem 1rem hsl(175, 79%, 87%);
 	border-radius: 500px;
@@ -531,11 +533,11 @@ section .title::after {
 	width: 150px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 5px solid #78199e;
+	border: 5px solid #2b6496;
 	transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img {
-	border-color:white;
+	border-color:#78199E;
 }
 .owl-dots {
 	text-align: center;
@@ -650,7 +652,7 @@ section .title::after {
 footer {
 	background: #95D1CC;
 	padding: 15px 23px;
-	color: #fff;
+	color: #2b6496;
 	text-align: center;
 }
 footer span a {
