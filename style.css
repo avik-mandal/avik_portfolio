@@ -259,6 +259,10 @@ section .title::after {
 	color: #78199e;
 	font-weight: 500;
 }
+.home .home-content .column-right {
+	width: 55%; 
+
+}
 .home .home-content a {
 	display: inline-block;
 	background: #78199e;
