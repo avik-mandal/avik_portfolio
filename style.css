@@ -213,7 +213,7 @@ section .title::after {
 	height: 150px;
 	width: 150px;
 	padding: 5px;
-	box-shadow: 0.4rem 0.4rem 1rem #76a39f, -0.4rem -0.4rem 1rem hsl(175, 79%, 87%); */
+	box-shadow: 0.4rem 0.4rem 1rem #76a39f, -0.4rem -0.4rem 1rem hsl(175, 79%, 87%);
 }
 .wrapper .back-face .info {
 	text-align: center;
